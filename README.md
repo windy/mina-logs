@@ -24,17 +24,18 @@ require 'mina/logs'
 
 Then:
 
-    # tail -f log/production.log
-    $ mina logs
-    # tail -f log/puma.log
-    $ mina puma_logs
-    # tail -f log/unicorn.log
-    $ mina unicorn_logs
-    # tail -f log/sidekiq.log
-    $ mina sidekiq_logs
-    # tail -f log/resque.log
-    $ mina resque_logs
-
+```shell
+# tail -f log/production.log
+$ mina logs
+# tail -f log/puma.log
+$ mina puma_logs
+# tail -f log/unicorn.log
+$ mina unicorn_logs
+# tail -f log/sidekiq.log
+$ mina sidekiq_logs
+# tail -f log/resque.log
+$ mina resque_logs
+```
 ## Contributing
 
 1. Fork it
