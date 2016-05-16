@@ -2,6 +2,8 @@
 
 A mina plugin that watch production logs in local machine.
 
+[![Gem Version](https://badge.fury.io/rb/mina-logs.svg)]
+
 ## Installation
 
 Add this line to your Rails application's Gemfile:
@@ -35,6 +37,8 @@ $ mina unicorn_logs
 $ mina sidekiq_logs
 # tail -f log/resque.log
 $ mina resque_logs
+# tail -f log/xx.log
+$ mina '_logs[xx]'
 ```
 ## Contributing
 
