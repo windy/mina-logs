@@ -2,7 +2,7 @@
 
 A mina plugin that watch production logs in local machine.
 
-[![Gem Version](https://badge.fury.io/rb/mina-logs.svg)]
+[!Gem Version](https://badge.fury.io/rb/mina-logs.svg)]
 
 ## Installation
 
