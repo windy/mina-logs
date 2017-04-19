@@ -4,6 +4,8 @@ A mina plugin that watch production logs in local machine.
 
 ![Gem version](https://badge.fury.io/rb/mina-logs.svg)
 
+For mina 0.3.8, please use `0.1.0` version.
+
 ## Installation
 
 Add this line to your Rails application's Gemfile:
